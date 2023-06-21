@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +7,195 @@
 }
 body {
   background-color: black;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+main {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* The Expore Section */
+.explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0rem;
+}
+
+.explore h1 {
+  max-width: 560px;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.explore button {
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: white;
+  transition: .2s ease-in-out all;
+  cursor: pointer;
+}
+
+.explore button:hover {
+  background: black;
+  color: white;
+  scale: 1.09;
+}
+
+/* Examples Section */
+.examples {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.examples div {
+  padding: 1rem;
+}
+
+.examples .left {
+  flex: .5;
+}
+
+.examples .left img,
+.examples .right img {
+  width: 100%;
+  max-height: 400px;
+  min-height: 400px;
+  min-width: 500px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.examples .left h3,
+.examples .right h3 {
+  margin-bottom: .8rem;
+}
+
+.examples .right {
+  flex: .5;
+}
+
+/* Compaines Section */
+.compaines {
+  padding: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compaines_content {
+  display: flex;
+}
+
+.compaines_content h1 {
+  font-size: 1.9rem;
+  margin: 0rem 3rem;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0rem;
+}
+
+.partner h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.partner button {
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: white;
+  transition: .2s ease-in-out all;
+  cursor: pointer;
+}
+
+.partner button:hover {
+  border: 1px solid white;
+  background: black;
+  color: white;
+  scale: 1.09;
+}
+
+
+/* Footer section */
+footer {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .links {
+  display: flex;
+  text-transform: uppercase;
+}
+
+footer .links ul {
+  list-style: none;
+  margin: 0rem 2.5rem;
+}
+
+footer .links ul li {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: .4rem 0rem;
+  cursor: pointer;
+  transition: .1s ease-in-out all;
+}
+
+footer .links ul li:hover {
+  color: rgba(239, 239, 239, 0.782);
+}
+
+footer .newsletter_socialMedia {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .newsletter_socialMedia ul {
+  list-style: none;
+  display: flex;
+}
+
+footer .newsletter_socialMedia ul li {
+  margin: 0rem 1rem;
+
+}
+
+footer .newsletter_socialMedia button {
+  padding: .9rem 3rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: .2s ease-in-out all;
+}
+footer .newsletter_socialMedia button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  scale: 1.09;
 }
