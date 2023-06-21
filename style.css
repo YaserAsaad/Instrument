@@ -8,7 +8,6 @@
 }
 body {
   background-color: black;
- mohammed
   color: white;
   font-family: 'Kanit', sans-serif;
   color: aliceblue;
@@ -90,6 +89,26 @@ header {
   padding: 2rem;
   max-width: 400px;
 }
+
+.btn, .btn1 {
+  padding: .9rem 3rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: .2s ease-in-out all;
+
+}
+.btn:hover, .btn1:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  scale: 1.09;
+}
+/* 
 .write .btn1 {
   border-radius: 1.2rem;
   background-color: #fff;
@@ -100,7 +119,7 @@ header {
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 30px;
-}
+} */
 
 main {
   max-width: 1600px;
